@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Instrutor Brito Baruch 36722 — Candidato a Deputado Estadual pelo AGIR em Minas Gerais. A voz da segurança ecoa em Minas!">
     <title>Instrutor Brito Baruch 36722 | A Voz da Segurança em Minas</title>
-    <!-- CONEXÃO ANTECIPADA COM A FONTE (acelera o carregamento) -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- CONEXÃO COM O CSS (design intacto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="image" href="banner-brito-mobile.webp" imagesrcset="banner-brito-mobile.webp 640w, banner-brito.webp 1920w" imagesizes="100vw" fetchpriority="high">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,9 +37,14 @@
         </nav>
     </header>
 
-    <!-- ===== BANNER DE CAPA (LARGURA TOTAL) ===== -->
+    <!-- ===== BANNER DE CAPA ===== -->
     <section class="hero-banner">
-        <img src="banner-brito.webp" alt="Instrutor Brito Baruch 36722 — A Voz da Segurança em Minas" width="1920" height="1080" fetchpriority="high" decoding="async">
+        <img src="banner-brito-mobile.webp"
+             srcset="banner-brito-mobile.webp 640w, banner-brito.webp 1920w"
+             sizes="100vw"
+             width="1920" height="1080"
+             fetchpriority="high" decoding="async"
+             alt="Instrutor Brito Baruch 36722 — A Voz da Segurança em Minas">
         <span class="cnpj-banner">CNPJ da campanha: 05.725.058/0001-16</span>
     </section>
 
